@@ -10,7 +10,6 @@ nav {
   width: 100%;
 }
 
-
 section {
   margin: 0 auto;
   width: 60%;
@@ -35,4 +34,14 @@ h3 {
   height: 100px;
   margin: 10px 0;
   width: 100%;
+}
+
+/*
+I couldn't quite figure it out the way described
+i found this made the most sense after googling:
+.background1 .background2 .background3
+Would the above be better and not to use the div?
+*/
+.background {
+  background-color: lightblue;
 }
